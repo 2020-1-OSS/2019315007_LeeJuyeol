@@ -1,5 +1,8 @@
 # list of play options
 play = ["Rock", "Paper", "Scissors"]
+# game rule
+winning_rule = {"Rock": "Scissors", "Paper": "Rock",
+                 "Scissors": "Papper"}
 # list of messages
 messages = ["Tie!", "You win!", "You lose!"]
 # assign a random play to the computer
